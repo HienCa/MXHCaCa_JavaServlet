@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+}
+.container__center .mg-top-30{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.container{
+    padding-top: 0;
+}
+.container__left{
+    background-color: #fff;
+    height: 100%;
+    width: 25%;
+    
+}
+.container__left__item--head{
+    display: flex;
+    justify-content: space-between;
+    padding:10px
+}
+.container__center{
+    margin-left: 10%;
+    width: 65%;
+    
+
+}
+.container__center__head{
+    background-color: #fff;
+    margin-left:30%;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.title{
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.acceptFriendGroup,
+.friendSuggestionGrouP{
+    display: flex;
+    align-items: center;
+    
+    position: relative;
+    flex-wrap: wrap;
+
+}
+.acceptFriendGroup__item,
+.friendSuggestionGrouP__item{
+    max-width: 20%;
+    text-align: center;
+    margin: 20px;   
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.acceptFriendGroup__item__content,
+.friendSuggestionGrouP__item{
+    padding: 10px; 
+}
+.avatar{
+	max-height: 100px;
+    width: 70px;
+}
+img:hover{
+    cursor: pointer;
+}
+.name{
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.btn--accept{
+    background-color: #1A6ED8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    
+}
+.btn--delete{
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    font-weight: 700;
+	
+}
+
+.btn--huygui{
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    font-weight: 700;
+	
+}
+.at{
+	display:block;
+}
+.hides{
+	display: none;
+}
+.btn--accept:hover,
+.btn--delete:hover,
+.btn--huygui{
+    cursor: pointer;
+    opacity: 0.7;
+}

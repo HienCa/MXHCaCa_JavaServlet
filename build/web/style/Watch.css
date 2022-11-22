@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container__center{
+    position: relative;
+    width: 67%;
+}
+.container__center__head__content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.container__content{
+    display:flex;
+    align-items: center;
+}
+img{
+    width:100%;
+}
+.groupBtn{
+    display:flex;
+    justify-content: space-between;
+}
+.groupBtn__content{
+    display:flex;
+    align-items: center;
+}
+
+.groupBtn__item{
+    padding: 10px;
+}
+.groupBtn__item__left{
+    padding: 10px;
+    border-radius: 10px;;
+}
+.groupBtn__item__left:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+

@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text-large{
+    font-size:40px;
+    font-weight:bold
+}
+.App{
+    text-align: center;
+    background-color: #F0F2F5;
+
+}
+
+
+
+
+.App__head{
+    background-color: #fff;
+    margin-bottom:20px;
+    padding: 0 200px;
+    padding-bottom: 20px;
+}
+
+.personalAvatar__Main{
+    width: 1200px;
+    height: 500px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.btnUpdateAbsolute{
+    position: absolute;
+    background-color: #fff;
+    bottom: 20px;
+    right: 50px;
+    width: 200px;
+    padding:10px 0;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.App__head__update{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.groupPersonal{
+    display: flex;
+    align-items: center;
+}
+.group__friendInfo{
+    opacity: 0.8;
+}
+.groupPersonal__item{
+    text-align: left;
+    margin-left: 20px
+}
+.App__head__update__item{
+}
+.group__friendAvatar{
+}
+.personalAvatar img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border:10px solid rgb(7, 101, 253);
+}
+.iconAbsolutee{
+    position: absolute;
+    right: 20px;
+    bottom:10px;
+    font-size: 50px;
+    border-radius: 50px;
+    background-color: #ccc;
+    width: 60px;
+}
+.btn-addStory{
+    background-color: #1A6ED8;
+    padding:20px;
+    color: #fff;
+    border-radius:10px;
+}
+.btn-updatePersonalPage{
+    background-color: #D8DADF;
+    padding:20px;
+    color: #000;
+    border-radius:10px;
+
+}
+.btn-addStory:hover,
+.btn-updatePersonalPage:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.App__head__groupBtn{
+    text-align:left;
+    padding:10px 0;
+}
+.btn__item{
+    padding: 20px;
+    border-radius:10px;
+
+}
+.btn__item:hover{
+    background-color:#F2F2F2;
+    cursor: pointer;
+}
+.App__content__main{
+    text-align:center;
+}
+.App__content{
+    display: flex;
+}
+.App__content__main{
+   display: flex;
+   align-items: center;
+   justify-content:space-evenly;
+}
+.App__content__left{
+    width: 500px;
+    display:inline-block;
+    text-align: left;
+}
+.Introduction,
+.ImageList,
+.Friends,
+.App__content__right__item{
+    background-color: #fff;
+    padding:20px;
+    border-radius:10px;
+}
+.mg-left-20{
+    margin-left:20px;
+}
+.App__content__right{
+    text-align: left;
+    width: 700px;
+    display:inline-block;
+
+
+}
+.App__content__right__item{
+   
+
+}
+.Introduction__btn{
+    background-color:#E4E6EB;
+    padding:10px;border-radius:10px;
+    text-align:center;
+}
+.Introduction__btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.ImageList__head{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.ImageList__body__item{
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius:10px;
+}
+.Friend__head{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.Friend__body{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    text-align:center;
+    margin-top: 5px;
+
+}
+.Friend__body__item{
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius:10px;
+    margin-top: 5px;
+}
+.friend__img {
+    height: 200px;
+
+}
+.App__content__right__item__head{
+    display:flex;
+    justify-content:space-between;
+}
+.bd-bottom{
+    border-bottom: 1px solid #ccc;
+}
+.bd__bottom{
+    padding-bottom: 20px;
+
+}
+.blue{
+	color:blue;
+}
